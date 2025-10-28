@@ -1,33 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A short description of your webpage">
-    <meta name="author" content="Your Name">
     <title>Demo</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
 
+<body>
     <main>
-        <div>
-        <h2 class="text-center care-desc care-container">Our Clients</h2>
-        <p class="text-center para care-desc are-container">We have been working with some Fortune 500+ clients</p>
+        <div class="header-container">
+            <header class="centered-container flex-center header-section">
+                <a href="index.html">
+                    <img src="/images/Logo.svg" alt="Logo">
+                </a>
+                <nav class="navigation-menu">
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a href="index.html">Home</a></li>
+                        <li class="nav-list-item"><a href="about.html">About</a></li>
+                        <li class="nav-list-item"><a href="services.html">Services</a></li>
+                        <li class="nav-list-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <button class="login-button button primary-button">Login</button>
+                    <button class="signup-button button secondary-button">Sign Up</button>
+                </div>
+            </header>
         </div>
+        <section class="content-section1">
+            <div class="centered-container care-container">
+                <h2 class="care-heading1 heading-1 text-center">Our Clients</h2>
+                <p class="care-desc1 para text-center">We have been working with some Fortune 500+ clients</p>
+
+                <nav class="navigation-menu">
+                    <ul class="nav-list1">
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo.png" alt="Client Logo 1" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(1).png" alt="Client Logo 2" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(2).png" alt="Client Logo 3" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(3).png" alt="Client Logo 4" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(4).png" alt="Client Logo 5" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(5).png" alt="Client Logo 6" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(6).png" alt="Client Logo 7"></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+         <section class="community-section">
+            <h2>Manage your entire community in a single system</h2>
+            <p class="subtitle">Who is Nextcent suitable for?</p>
+
+    <div class="cards">
+      <div class="card">
+        <img src="/images/Icon.png" alt="Care Image" class="care-image">
+        <h3>Membership Organisations</h3>
+        <p>Our membership management software provides full automation of membership renewals and payments.</p>
+      </div>
+
+      <div class="card">
+        <img src="/images/Icon(1).png" alt="Care Image" class="care-image">
+        <h3>National Associations</h3>
+        <p>Our membership management software provides full automation of membership renewals and payments.</p>
+      </div>
+
+      <div class="card">
+        <img src="/images/Icon(2).png" alt="Care Image" class="care-image">
+        <h3>Clubs And Groups</h3>
+        <p>Our membership management software provides full automation of membership renewals and payments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pixelgrade Section -->
+
+  <section class="split-section">
+    <div class="image-split">
+      <img src="/images/Frame 35.png" alt="Illustration">
+    </div>
+    <div>
+      <h2 class="text1">The unseen of spending three years at Pixelgrade</h2>
+      <p class="story-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+      <button class="btn">Learn More</button>
+    </div>
+  </section>
+  
+
+  <!-- Stats Section -->
+
+   <section class="stats-section">
+    <div class="stats-text">
+        <table>
+            <tr aria-rowspan="2">
+                <td>
+                    <h2>Helping a local <span>business reinvent itself</span></h2>
+                    <p>We reached here with our hard work and dedication</p>
+                </td>
+                <td>
+                    <div class="stats-grid">
+                        <img src="/images/stat-i/Icon(1).png" alt="Care Image" class="care-image">
+                        <h3>2,245,341</h3>
+                        <p>Members</p>
+                    </div>
+                    <div class="stats-grid">
+                        <img src="/images/stat-i/Icon.png" alt="Care Image" class="care-image">
+                        <h3>46,328</h3>
+                        <p>Clubs</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="stats-grid">
+                        <img src="/images/stat-i/Icon(2).png" alt="Care Image" class="care-image">
+                        <h3>828,867</h3>
+                        <p>Event Bookings</p>
+                    </div>
+                    <div class="stats-grid">
+                        <img src="/images/stat-i/Icon(3).png" alt="Care Image" class="care-image">
+                        <h3>1,926,436</h3>
+                        <p>Payments</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+
+<!-- Pixelgrade Section -->
+
+  <section class="split-section">
+    <div class="image-split">
+      <img src="/images/Frame 35.png" alt="Illustration">
+    </div>
+    <div>
+      <h2 class="text1">How to design your site footer like we did</h2>
+      <p class="story-content">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+      <button class="btn">Learn More</button>
+    </div>
+  </section>
+
+
+  <!-- Pixelgrade Section -->
+
+  <section class="split-section stats-section">
+    <div class="image-split">
+      <img src="/images/image 9.png" alt="Illustration">
+    </div>
+    <div>
+      <p class="story-content">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+      <h3 class="col">Tim Smith<br><p>British Dragon Boat Racing Association</p></h3>
+      <div>
+        <ul class="nav-list1">
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo.png" alt="Client Logo 1" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(1).png" alt="Client Logo 2" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(2).png" alt="Client Logo 3" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(3).png" alt="Client Logo 4" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(4).png" alt="Client Logo 5" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(5).png" alt="Client Logo 6" ></li>
+                        <li class="nav-list-item"><img src="/images/Client-logo/Logo(6).png" alt="Client Logo 7"></li>
+                    </ul>
+      </div>
+    </div>
+  </section>
+
+<!--sect-->
+
+        <section class="content-section">
+            <div class="centered-container care-container">
+                <h1 class="care-heading heading-1 text-center">Caring is the new marketing</h1>
+                <p class="care-desc para text-center">The Nexcent blog is the best place to read about the latest
+                    membership insights, trends and more. See who's joining the community, read about how our community
+                    are increasing their membership income and lot's more.​</p>
+                <div class="care-image-wrapper">
+                    <div class="care-image-container">
+                        <div class="care-image">
+                            <img src="/images/image 18.png" alt="Care Image" class="care-image">
+                        </div>
+                        <div class="care-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                    </div>
+                    <div class="care-image-container">
+                        <div class="care-image">
+                            <img src="/images/image 18.png" alt="Care Image" class="care-image">
+                        </div>
+                        <div class="care-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                    </div>
+                    <div class="care-image-container">
+                        <div class="care-image">
+                            <img src="/images/image 18.png" alt="Care Image" class="care-image">
+                        </div>
+                        <div class="care-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <footer class="footer-item">
+        <div class="left-footer">
+            <a href="index.html">
+                <img src="/images/Logo.svg" alt="Logo">
+            </a>
+            <p class="footer-content">Copyright © 2020 Nexcent ltd.<br>All rights reserved</p>
+            <div class="logo-icons-container">
+            
+                <div><img src="/images/Client-logo/Logo.png" alt="Client Logo 1" ></div>
+                <div><img src="/images/Client-logo/Logo(1).png" alt="Client Logo 2" ></div>
+                <div><img src="/images/Client-logo/Logo(2).png" alt="Client Logo 3" ></div>
+                <div><img src="/images/Client-logo/Logo(3).png" alt="Client Logo 4" ></div>
+            
+            </div>
+        
+        </div>
+        <div class="right-footer">
+              <table>
+                <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Support</th>
+                    <th>Stay up to date</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                    </td>
+                    <td>
+                    <ul>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                    </td>
+                    <td>
+                    <div class="subscribe">
+                        <input type="email" placeholder="Your email address" />
+                        <button type="submit">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            width="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                        </button>
+                    </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+                
+                
+        </div>
     </footer>
-
 </body>
+
 </html>
