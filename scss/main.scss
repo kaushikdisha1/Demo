@@ -107,6 +107,8 @@ body {
   padding: 50px 0px;
 }
 
+
+
 /*# sourceMappingURL=style.css.map */
 
 .content-section1 {
@@ -128,7 +130,10 @@ body {
     color: #555;
 }
 
+
+
 /* Align the logos */
+
 .nav-list1 {
     display: flex;
     flex-wrap: wrap;
@@ -196,6 +201,7 @@ body {
 
 
 /* Utility Classes */
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -218,7 +224,10 @@ p {
   font-size: 0.95rem;
 }
 
+
+
 /* ----------- Section Features ----------- */
+
 .features-section {
   background-color: #f9f9f9;
   padding: 80px 0;
@@ -256,7 +265,10 @@ p {
   margin-bottom: 8px;
 }
 
-/* ----------- Section: Pixelgrade Story ----------- */
+
+
+/* ----------- Section- ixelgrade Story ----------- */
+
 .split-section {
   display: flex;
   align-items: center;
@@ -304,7 +316,11 @@ p {
   padding-right: 500px;
 }
 
+
+
+
 /* ----------- Section: Stats ----------- */
+
 .stats-section {
   background-color: #f9f9f9;
 //   padding: 60px 0;
@@ -365,11 +381,20 @@ p {
 text-align: left;
 }
 
-/* ----------- Section: Community Highlights ----------- */
+
+
+/* ----------- Community Highlights Section ----------- */
+
+.color-list {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4caf4f;
+  margin-top: 40px;
+}
 .community-section {
   text-align: center;
   padding: 80px 0;
-  background-color: #f9fafc; // soft background for separation
+  background-color: #f9fafc; 
   color: #333;
 
   h2 {
@@ -426,6 +451,7 @@ text-align: left;
     }
   }
 
+
   // Responsive Design
   @media (max-width: 768px) {
     .cards {
@@ -438,6 +464,9 @@ text-align: left;
     }
   }
 }
+
+
+
 
 /*footer*/
 
@@ -513,6 +542,9 @@ text-align: left;
 .right-footer ul li a:hover {
   color: #fff;
 }
+
+
+
 
 /* Email Subscribe Section */
 .subscribe {
