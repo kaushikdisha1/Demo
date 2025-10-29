@@ -126,6 +126,7 @@ body {
 }
 
 /* Align the logos */
+
 .nav-list1, .nav-list2 {
   display: flex;
   flex-wrap: wrap;
